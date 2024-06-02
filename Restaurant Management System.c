@@ -1,4 +1,4 @@
-```c
+
 /* Restaurant Management System for Final Project */
 
 #include<ctype.h>
@@ -28,11 +28,8 @@
 /* Global Variables */
 
 FILE *fp, *ft; // pointers 
-
 int jmlh_menu = 5;
-
 bool hides = FALSE; // set 
-
 char data_user[100], order_user[100];
 
 struct sort_f{
@@ -51,7 +48,6 @@ void menu();  void art();   void chinese(); void japanese(); void western();
 
 void login(); void pembayaran(); void signup(); 
 void edit();  void edit_menu();  void list_ord(int y);
-
 
 void hide(bool hides);
 void post(int x, int y);
@@ -1354,4 +1350,3 @@ int main(){
     intro();
 
 }
-```
